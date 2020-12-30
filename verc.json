@@ -1797,6 +1797,14 @@
                     {
                         "value": "27",
                         "desc": "British Flag"
+                    },
+                    {
+                        "value": "29",
+                        "desc": "Allied Custom4"
+                    },
+                    {
+                        "value": "32",
+                        "desc": "Allied Custom5"
                     }
                 ]
             },
@@ -1841,6 +1849,14 @@
                     {
                         "value": "26",
                         "desc": "Axis Custom3"
+                    },
+                    {
+                        "value": "30",
+                        "desc": "Axis Custom4"
+                    },
+                    {
+                        "value": "33",
+                        "desc": "Axis Custom5"
                     }
                 ]
             },
@@ -1885,6 +1901,14 @@
                     {
                         "value": "24",
                         "desc": "Neutral Custom3"
+                    },
+                    {
+                        "value": "28",
+                        "desc": "Neutral Custom4"
+                    },
+                    {
+                        "value": "31",
+                        "desc": "Neutral Custom5"
                     }
                 ]
             },
