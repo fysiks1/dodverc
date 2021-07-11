@@ -1,5 +1,12 @@
 <?php
-$verc = json_decode(file_get_contents("verc.json"));
+
+$branch = "master";
+if( isset($_GET['branch']) )
+{
+	$branch = $_GET['branch'];
+}
+
+$verc = json_decode(file_get_contents("https://github.com/fysiks1/dodverc/raw/$branch/verc.json"));
 $linksincluded = false;
 
 if( isset($_GET['ent']) ):
@@ -622,7 +629,7 @@ if( !$linksincluded ):
 			<tr>
 			<td>
 				&nbsp;&nbsp;
-				<a href="<?php echo $_SERVER['SCRIPT_NAME'] . "?ent=" . $ent->name; ?>"><?php echo $ent->name; ?></a>
+				<a href="<?php echo $_SERVER['SCRIPT_NAME'] . "?ent=" . $ent->name . "&branch=" . $branch; ?>"><?php echo $ent->name; ?></a>
 			</td>
 			</tr>
 			</tbody>
