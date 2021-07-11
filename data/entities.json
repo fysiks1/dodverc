@@ -18770,6 +18770,54 @@
         "flags": []
     },
     {
+        "name": "weapon_k43",
+        "desc": "",
+        "properties": [],
+        "flags": []
+    },
+    {
+        "name": "weapon_scopedkar",
+        "desc": "",
+        "properties": [],
+        "flags": []
+    },
+    {
+        "name": "weapon_scopedenfield",
+        "desc": "",
+        "properties": [],
+        "flags": []
+    },
+    {
+        "name": "weapon_fg42",
+        "desc": "",
+        "properties": [],
+        "flags": []
+    },
+    {
+        "name": "weapon_webley",
+        "desc": "",
+        "properties": [],
+        "flags": []
+    },
+    {
+        "name": "weapon_scopedfg42",
+        "desc": "",
+        "properties": [],
+        "flags": []
+    },
+    {
+        "name": "weapon_handgrenade",
+        "desc": "",
+        "properties": [],
+        "flags": []
+    },
+    {
+        "name": "weapon_stickgrenade",
+        "desc": "",
+        "properties": [],
+        "flags": []
+    },
+    {
         "name": "worldspawn",
         "desc": "World entity",
         "properties": [
